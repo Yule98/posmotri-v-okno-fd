@@ -79,9 +79,8 @@ ol {
   gap: 40px;
 }
 .content__list-container {
-  height: 534px;
+  height: 298px;
   overflow-y: scroll;
-  overflow-x: hidden;
   position: relative;
 }
 .content__list {
@@ -91,7 +90,6 @@ ol {
 }
 .content__details {
   width: 399px;
-  height: 534px;
   display: flex;
   flex-direction: column;
   gap: 26px;
@@ -124,8 +122,7 @@ ol {
 .title {
   line-height: 94%;
   width: 260px;
-  height: 210px;
-  font-family: 'Oswald';
+  font-family: 'Oswald',sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 75px;
@@ -139,7 +136,7 @@ ol {
   text-decoration: none;
 }
 .content__video-card-title {
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald',sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
@@ -147,6 +144,7 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  width: 196px;
 }
 .content__video-card-description {
   display: -webkit-box;
@@ -182,7 +180,9 @@ ol {
   width: fit-content;
 }
 .search-form__textfield {
+  font-family: 'Oswald',sans-serif;
   color: #fff;
+  background-color: transparent;
   appearance: none;
   border: none;
   border-top: 1px solid #fff;
@@ -191,7 +191,6 @@ ol {
 }
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  background-color: black;
 }
 .search-form__textfield:focus {
   outline: none;
@@ -217,30 +216,29 @@ ol {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
-.search-form__label-text:hover {
+.search-form__label:hover {
   text-decoration: underline;
 }
 .search-form__checkbox-list:focus {
   outline: 1px solid #fff;
 }
 .button {
+  font-family: 'Oswald',sans-serif;
   font-weight: bold;
   color: #fff;
   background-color: transparent;
   border: 1px solid #FFFFFF;
   font-size: 18px;
+  height: 34px;
+  cursor: pointer;
 }
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   margin-top: 20px;
-  cursor: pointer;
 }
 .more-button {
   width: 100%;
-  height: 34px;
   margin-top: 30px;
-  cursor: pointer;
 }
 .button:hover {
   text-decoration: underline;

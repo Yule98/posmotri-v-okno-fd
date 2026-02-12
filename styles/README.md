@@ -1,1 +1,0 @@
-https://github.com/Yule98/posmotri-v-okno-fd
