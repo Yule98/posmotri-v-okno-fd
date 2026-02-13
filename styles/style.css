@@ -242,7 +242,6 @@ ol {
 }
 .button:hover {
   text-decoration: underline;
-  border: none;
 }
 .button:active {
   background-color: rgba(84, 80, 80, 1);
