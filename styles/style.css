@@ -180,7 +180,7 @@ ol {
   width: fit-content;
 }
 .search-form__textfield {
-  font-family: 'Oswald',sans-serif;
+  font-family: 'Fira Sans Condensed',sans-serif;
   color: #fff;
   background-color: transparent;
   appearance: none;
@@ -216,14 +216,14 @@ ol {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
-.search-form__label:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 .search-form__checkbox-list:focus {
   outline: 1px solid #fff;
 }
 .button {
-  font-family: 'Oswald',sans-serif;
+  font-family: 'Fira Sans Condensed',sans-serif;
   font-weight: bold;
   color: #fff;
   background-color: transparent;
